@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer, nav {background-color: #bbb;}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-weight: 100;
+}
+
+.content {
+    margin: 1rem 2vw;
+}
+
+.content h2 {
+    background-color: #415541;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+}
+
+.content ul {
+    padding: 10px;
+}
+
+.content section {
+    border: 1px solid #415541;
+    background-color: #e9f5e9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
